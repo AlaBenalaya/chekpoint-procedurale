@@ -1,0 +1,29 @@
+Procédure dot_product (u: Tableau number, v: Tableau number ) ;
+var
+ U[n], V[n];
+  /* tableaux donnés */
+i,ps,n:number;
+begin
+ /* Saisie des données */
+write("ecrire tableaux" , v[n]);
+read ("lire tableaux"  ,v[n]);
+Pour (i=0;i<n;i++){
+    read(n,v[n]);
+}
+Fin Pour 
+
+write("ecrire tableaux", u[n]);
+read ("lire tableaux" , u[n]);
+Pour (i=0;i<n;i++){
+read(u,u[n]);}
+Fin Pour
+ /* Calcul du produit scalaire */
+ Pour ( I=0; I<N; I++){
+ ps=0;
+ ps +=U[I]*V[I];
+}
+ read ("lire le prousuit sclaire",  ps );
+ Fin Pour
+
+
+end 

@@ -1,0 +1,15 @@
+Fonction  dot_product (u: Tableau number, v: Tableau number ):number;
+Var
+i,ps,n:number;
+U[n], V[n]:tableau [N] number;
+begin
+    /* Calcul du produit scalaire */
+ Pour ( I=0; I<N; I++){
+    ps=0;
+    ps +=U[I]*V[I];
+   }
+ Fin Pour
+   dot_product=ps;
+
+
+end dot_product
